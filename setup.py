@@ -1,10 +1,10 @@
 """
 Author: Wenyu Ouyang
 Date: 2022-06-28 21:29:43
-LastEditTime: 2022-06-28 21:54:23
+LastEditTime: 2022-06-29 14:01:38
 LastEditors: Wenyu Ouyang
 Description: setup file
-FilePath: \hydro-test\setup.py
+FilePath: \hydrodemo\setup.py
 Copyright (c) 2021-2022 Wenyu Ouyang. All rights reserved.
 """
 #!/usr/bin/env python
@@ -13,7 +13,7 @@ Copyright (c) 2021-2022 Wenyu Ouyang. All rights reserved.
 from setuptools import setup, find_packages
 
 setup(
-    name = "hydrotest", # 输入项目名称
+    name = "owenhydrodemo", # 输入项目名称
     version = "0.0.1", # 输入版本号
     keywords = ["test"], # 输入关键词
     description = "hydro test", # 输入概述
