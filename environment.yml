@@ -1,0 +1,6 @@
+name: demo 
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - numpy
