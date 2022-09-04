@@ -7,7 +7,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
         matrix:
-            os: ["ubuntu-latest", "windows-latest"]
+            os: ["ubuntu-latest"]
     steps:
       - uses: actions/checkout@v2
       - name: Setup Miniconda
@@ -19,6 +19,6 @@ jobs:
           auto-activate-base: false
       - shell: bash -l {0}
         run: |
-          python -m ipykernel install --name demo --display-name "demo" 
+          python -m ipykernel install --user --name demo --display-name "demo" 
           conda env list
           jupyter kernelspec list
